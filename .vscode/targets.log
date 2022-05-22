@@ -1,0 +1,428 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May 22 18:49:45 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 8)
+OBJ = $(SRC:.c=.o)
+# environment
+GDK_BACKEND = x11
+# default
+ARFLAGS := -rv
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 7)
+SRC = st.c x.c
+# default
+FFLAGS := -O1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1a67d0d0-cfbf-4381-90e0-286287a9a0d0.sock
+# environment
+VSCODE_CWD = /home/david
+# environment
+WINDOWPATH = 1
+# makefile (from 'config.mk', line 19)
+LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil -lXft  `$(PKG_CONFIG) --libs fontconfig`  `$(PKG_CONFIG) --libs freetype2`
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'config.mk', line 25)
+STCFLAGS = $(INCS) $(STCPPFLAGS) $(CPPFLAGS) $(CFLAGS)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/david/Files/Projects/untitled_void_project/st
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/david
+# makefile (from 'config.mk', line 13)
+PKG_CONFIG = pkg-config
+# environment
+OLDPWD = /home/david
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/david/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/david/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/david/Files/Projects/untitled_void_project/st
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'config.mk', line 2)
+VERSION = 0.8.5
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -ec
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'config.mk', line 1)
+MAKEFILE_LIST := Makefile config.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 57303
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-N75kEomODM,guid=065835059739342976a0a732628a4901
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 4
+# environment
+MAKELEVEL := 0
+# environment
+DBUS_SESSION_BUS_PID = 834
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+FC := fort77
+# environment
+PATH = /home/david/.local/bin:/home/david/Files/Scripts:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# makefile (from 'config.mk', line 7)
+PREFIX = /usr/local
+# environment
+XDG_CONFIG_HOME = /home/david/.config/
+# environment
+INVOCATION_ID = 8ce6635a0d98406c874c4ebe85680700
+# makefile (from 'config.mk', line 16)
+INCS = -I$(X11INC)  `$(PKG_CONFIG) --cflags fontconfig`  `$(PKG_CONFIG) --cflags freetype2`
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+TerminalEmulator = st
+# environment
+LOGNAME = david
+# makefile (from 'config.mk', line 10)
+X11INC = /usr/X11R6/include
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 718
+# environment
+DISPLAY = :0
+# environment
+USER = david
+# default
+MAKE_VERSION := 4.3
+# default
+SCCSGETFLAGS := -s
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# default
+CFLAGS := -O1
+# makefile (from 'config.mk', line 24)
+STCPPFLAGS = -DVERSION=\"$(VERSION)\" -D_XOPEN_SOURCE=600
+# environment
+VISUAL = /usr/bin/vim
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/david
+# makefile (from 'config.mk', line 8)
+MANPREFIX = $(PREFIX)/share/man
+# makefile (from 'config.mk', line 26)
+STLDFLAGS = $(LIBS) $(LDFLAGS)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-10a394bb-1.67.1-main.sock
+# environment
+TERM = linux
+# environment
+XDG_SESSION_ID = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'config.mk', line 11)
+X11LIB = /usr/X11R6/lib
+# environment
+LESSHISTFILE = -
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# default
+CC := c99
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=14/160=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66312, inode 6423364): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+dist: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	mkdir -p st-$(VERSION)
+	cp -R FAQ LEGACY TODO LICENSE Makefile README config.mk\
+		config.def.h st.info st.1 arg.h st.h win.h $(SRC)\
+		st-$(VERSION)
+	tar -cf - st-$(VERSION) | gzip > st-$(VERSION).tar.gz
+	rm -rf st-$(VERSION)
+
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	$(CC) $(STCFLAGS) -c $<
+
+# Not a target:
+arg.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+st.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 18:49:42.960681714
+#  File has been updated.
+#  Successfully updated.
+
+st.o: config.h st.h win.h config.h config.mk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+x.o: arg.h config.h st.h win.h config.h config.mk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	rm -f $(DESTDIR)$(PREFIX)/bin/st
+	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	rm -f st $(OBJ) st-$(VERSION).tar.gz
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: options st
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+ 
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/19=0%
+
+# Not a target:
+config.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 18:49:42.960681714
+#  File has been updated.
+#  Successfully updated.
+
+st: st.o x.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
+
+config.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	cp config.def.h config.h
+
+.POSIX:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install: st
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	mkdir -p $(DESTDIR)$(PREFIX)/bin
+	cp -f st $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/st
+	mkdir -p $(DESTDIR)$(MANPREFIX)/man1
+	sed "s/VERSION/$(VERSION)/g" < st.1 > $(DESTDIR)$(MANPREFIX)/man1/st.1
+	chmod 644 $(DESTDIR)$(MANPREFIX)/man1/st.1
+	tic -sx st.info
+	@echo Please see the README file regarding the terminfo entry of st.
+
+# Not a target:
+win.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all options clean dist install uninstall
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+options:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := options
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=14/27=52%
+#  recipe to execute (from 'Makefile', line 13):
+	@echo st build options:
+	@echo "CFLAGS  = $(STCFLAGS)"
+	@echo "LDFLAGS = $(STLDFLAGS)"
+	@echo "CC      = $(CC)"
+
+# files hash-table stats:
+# Load=20/1024=2%, Rehash=0, Collisions=0/58=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 38 / storage = 270 B / avg = 7 B
+# current buf: size = 8162 B / used = 270 B / count = 38 / avg = 7 B
+
+# strcache performance: lookups = 85 / hit rate = 55%
+# hash-table stats:
+# Load=38/8192=0%, Rehash=0, Collisions=0/85=0%
+# Finished Make data base on Sun May 22 18:49:45 2022
+
+ 
